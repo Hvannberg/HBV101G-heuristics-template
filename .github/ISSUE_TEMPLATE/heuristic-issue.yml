@@ -18,7 +18,7 @@ body:
         - Recognition over recall
         - Flexibility & efficiency
         - Aesthetics & minimalism
-      description: Veldu flokk sem a best vid.
+      description: Veldu flokk sem á best við.
     validations:
       required: true
 
@@ -41,15 +41,15 @@ body:
     attributes:
       label: Tengt task (nr ur TASKS.md)
       placeholder: "1"
-      description: Sladu inn task-numer sem tengist þessu issue.
+      description: Sláðu inn task-numer sem tengist þessu issue.
     validations:
       required: true
 
   - type: textarea
     id: context
     attributes:
-      label: Samhengi / task og sidur
-      placeholder: 'Daemi: "Leita ad voru og setja i korfu" a /search og /product'
+      label: Samhengi / task og síður
+      placeholder: 'Daemi: "Leita að vöru og setja i körfu" a /search og /product'
     validations:
       required: true
 
@@ -57,28 +57,28 @@ body:
     id: steps
     attributes:
       label: Skref til ad endurskapa
-      placeholder: "1) Opna /search  2) Sladu inn ...  3) ..."
+      placeholder: "1) Opna /search  2) Sláðu inn ...  3) ..."
     validations:
       required: true
 
   - type: textarea
     id: observed
     attributes:
-      label: Raunverd hegðun (observed)
+      label: Raunveruleg hegðun (observed)
     validations:
       required: true
 
   - type: textarea
     id: expected
     attributes:
-      label: Aeskileg hegðun (expected)
+      label: Æskileg hegðun (expected)
     validations:
       required: true
 
   - type: textarea
     id: suggestion
     attributes:
-      label: Tillaga ad urbót (optional)
+      label: Tillaga ad úrbótum (optional)
       placeholder: Stutt lausn eða hugmynd að betrumbót.
     validations:
       required: false
@@ -86,7 +86,7 @@ body:
   - type: checkboxes
     id: evidence
     attributes:
-      label: Sonnunargogn (optional)
+      label: Sönnunargogn (optional)
       options:
-        - label: Skjamynd eða video fylgir (draga & sleppa nedan)
+        - label: Skjámynd eða video fylgir (draga & sleppa neðan)
 
