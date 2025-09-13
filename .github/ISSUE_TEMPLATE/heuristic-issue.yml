@@ -1,14 +1,15 @@
 name: Heuristic Evaluation Issue
-description: Skráning á usability-vandamáli samkvæmt Nielsen heuristics
-title: "[HEURISTIC] Stutt lýsing á vandamáli"
+description: Skra usability-vandamal skv. Nielsen heuristics
+title: "[HEURISTIC] Stutt lýsing"
 labels:
   - usability
   - heuristic
+
 body:
   - type: dropdown
     id: heuristic
     attributes:
-      label: Hvaða heuristic á þetta við?
+      label: Hvaða heuristic a þetta vid?
       options:
         - Visibility & Feedback
         - Match to real world
@@ -17,7 +18,7 @@ body:
         - Recognition over recall
         - Flexibility & efficiency
         - Aesthetics & minimalism
-      description: Veldu flokk. Ef vafi, notaðu þann sem á best við.
+      description: Veldu flokk sem a best vid.
     validations:
       required: true
 
@@ -26,78 +27,66 @@ body:
     attributes:
       label: Alvarleiki
       options:
-        - "severity:1 — smávægilegt"
-        - "severity:2 — vægt"
-        - "severity:3 — miðlungs"
-        - "severity:4 — alvarlegt"
-        - "severity:5 — krítískt"
-      description: Veldu alvarleika (heuristics severity scale).
+        - severity:1 - minor
+        - severity:2 - low
+        - severity:3 - medium
+        - severity:4 - high
+        - severity:5 - critical
+      description: Veldu alvarleika.
     validations:
       required: true
-
-
-- type: input
-  id: task
-  attributes:
-    label: Tengt task
-    description: Sláðu inn númer verkefnis (sjá TASKS.md) eða stutta lýsingu.
-    placeholder: "Task 2 – Leita að vöru og setja í körfu"
-  validations:
-    required: true
-  - type: textarea
-    id: context
 
   - type: input
     id: linked_task
     attributes:
-      label: Tengt task (# úr TASKS.md)
-      description: Sláðu inn númer tasks sem þetta issue tengist (sjá TASKS.md).
+      label: Tengt task (nr ur TASKS.md)
       placeholder: "1"
+      description: Sladu inn task-numer sem tengist þessu issue.
     validations:
       required: true
+
+  - type: textarea
+    id: context
     attributes:
-      label: Samhengi / Task
-      description: Hvaða notendaverkefni (task) og skjár/hluti vefs varst þú að prófa?
-      placeholder: "Dæmi: 'Leita að vöru og setja í körfu' á /search og /product"
+      label: Samhengi / task og sidur
+      placeholder: 'Daemi: "Leita ad voru og setja i korfu" a /search og /product'
     validations:
       required: true
 
   - type: textarea
     id: steps
     attributes:
-      label: Hvernig á þetta sér stað?
-      description: Skref-fyrir-skref til að endurskapa vandann.
-      placeholder: "1) Opna /search  2) Skrifa '...'  3) ..."
+      label: Skref til ad endurskapa
+      placeholder: "1) Opna /search  2) Sladu inn ...  3) ..."
     validations:
       required: true
 
   - type: textarea
     id: observed
     attributes:
-      label: Raunverð hegðun (observed)
-      description: Hvað gerðist raunverulega?
+      label: Raunverd hegðun (observed)
     validations:
       required: true
 
   - type: textarea
     id: expected
     attributes:
-      label: Æskileg hegðun (expected)
-      description: Hvað ætti að gerast m.v. heuristics?
+      label: Aeskileg hegðun (expected)
     validations:
       required: true
 
   - type: textarea
     id: suggestion
     attributes:
-      label: Tillaga að úrbót
-      description: Hvernig væri hægt að laga þetta? (má vera stutt)
+      label: Tillaga ad urbót (optional)
+      placeholder: Stutt lausn eða hugmynd að betrumbót.
     validations:
       required: false
 
   - type: checkboxes
     id: evidence
     attributes:
-      label: Sönnunargögn (optional)
+      label: Sonnunargogn (optional)
       options:
-        - label: Skjámynd eða skjáupptaka fylgir (draga & sleppa hér að neðan)
+        - label: Skjamynd eða video fylgir (draga & sleppa nedan)
+
