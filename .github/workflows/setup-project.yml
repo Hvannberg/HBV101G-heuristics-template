@@ -2,12 +2,16 @@ name: Setup Heuristics Project (classic)
 on:
   workflow_dispatch:
 
+permissions:
+  contents: read
+  repository-projects: write   # <-- LAGAÐ
+
 jobs:
   create-project:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      projects: write
+      repository-projects: write   # <-- LAGAÐ
     steps:
       - name: Create Project (classic) if missing
         uses: actions/github-script@v7
@@ -16,8 +20,7 @@ jobs:
           script: |
             const owner = context.repo.owner;
             const repo = context.repo.repo;
-            // List existing projects
-            const projects = await github.rest.projects.listForRepo({owner, repo});
+            const projects = await github.rest.projects.listForRepo({ owner, repo });
             let project = projects.data.find(p => p.name === "Heuristics Board");
             if (!project) {
               const created = await github.rest.projects.createForRepo({
@@ -27,9 +30,9 @@ jobs:
             }
 
             async function ensureColumn(name) {
-              const cols = await github.rest.projects.listColumns({project_id: project.id});
+              const cols = await github.rest.projects.listColumns({ project_id: project.id });
               if (!cols.data.find(c => c.name === name)) {
-                await github.rest.projects.createColumn({project_id: project.id, name});
+                await github.rest.projects.createColumn({ project_id: project.id, name });
               }
             }
 
@@ -45,7 +48,6 @@ jobs:
               "In Review",
               "Done"
             ];
-
-            for (const c of columns) { await ensureColumn(c); }
-
+            for (const c of columns) await ensureColumn(c);
             core.info(`Project ready at: ${project.html_url}`);
+
