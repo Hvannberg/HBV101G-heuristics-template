@@ -1,9 +1,12 @@
-name: "Question"
-description: "Spurning eða álitamál sem hópurinn vill ræða"
 title: "[SPURNING] Stutt lýsing"
-labels:
+labels: 
   - question
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Notið þetta sniðmát til að skrá spurningu eða umræðu sem hópurinn vill ræða.
+
   - type: textarea
     id: context
     attributes:
