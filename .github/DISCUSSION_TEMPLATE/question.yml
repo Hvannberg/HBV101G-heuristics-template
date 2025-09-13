@@ -1,13 +1,14 @@
-name: Question
-description: Spurning eða álitamál sem hópurinn vill ræða
+name: "Question"
+description: "Spurning eða álitamál sem hópurinn vill ræða"
 title: "[SPURNING] Stutt lýsing"
-labels: ["question"]
+labels:
+  - question
 body:
   - type: textarea
     id: context
     attributes:
-      label: Um hvað snýst spurningin?
-      description: Lýsið stuttlega því sem hópurinn er að velta fyrir sér.
+      label: "Um hvað snýst spurningin?"
+      description: "Lýsið stuttlega því sem hópurinn er að velta fyrir sér."
       placeholder: "Hvað eigum við að gera ef..."
     validations:
       required: true
@@ -15,8 +16,9 @@ body:
   - type: textarea
     id: details
     attributes:
-      label: Hvað höfum við prófað eða hugsað?
-      description: Segið frá því sem þið hafið prófað eða rætt áður en þið spurðuð.
+      label: "Hvað höfum við prófað eða hugsað?"
+      description: "Segið frá því sem þið hafið prófað eða rætt áður en þið spurðuð."
       placeholder: "Við prófuðum að..."
     validations:
       required: false
+
