@@ -7,7 +7,7 @@ Allt fer fram á GitHub: issues, labels og Project board.
 
 ## TASKS.md (hópa- og task-skrá)
 - Fyllið út hópanúmer og nöfn allra í hópnum.
-- Skráið 5–7 tasks og númerið þau.
+- Skráið 5–7 tasks sem hægt er að leysa á vefsíðunni og númerið þau.
 - Í hverju issue, **sláið inn task-númer** í reitnum „Tengt task (# úr TASKS.md)“.
 
 1. **Búið til repo úr sniðmátinu** (`Use this template`).
