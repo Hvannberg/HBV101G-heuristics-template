@@ -1,0 +1,103 @@
+name: Heuristic Evaluation Issue
+description: Skráning á usability-vandamáli samkvæmt Nielsen heuristics
+title: "[HEURISTIC] Stutt lýsing á vandamáli"
+labels:
+  - usability
+  - heuristic
+body:
+  - type: dropdown
+    id: heuristic
+    attributes:
+      label: Hvaða heuristic á þetta við?
+      options:
+        - Visibility & Feedback
+        - Match to real world
+        - User control & error prevention
+        - Consistency & standards
+        - Recognition over recall
+        - Flexibility & efficiency
+        - Aesthetics & minimalism
+      description: Veldu flokk. Ef vafi, notaðu þann sem á best við.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Alvarleiki
+      options:
+        - "severity:1 — smávægilegt"
+        - "severity:2 — vægt"
+        - "severity:3 — miðlungs"
+        - "severity:4 — alvarlegt"
+        - "severity:5 — krítískt"
+      description: Veldu alvarleika (heuristics severity scale).
+    validations:
+      required: true
+
+
+- type: input
+  id: task
+  attributes:
+    label: Tengt task
+    description: Sláðu inn númer verkefnis (sjá TASKS.md) eða stutta lýsingu.
+    placeholder: "Task 2 – Leita að vöru og setja í körfu"
+  validations:
+    required: true
+  - type: textarea
+    id: context
+
+  - type: input
+    id: linked_task
+    attributes:
+      label: Tengt task (# úr TASKS.md)
+      description: Sláðu inn númer tasks sem þetta issue tengist (sjá TASKS.md).
+      placeholder: "1"
+    validations:
+      required: true
+    attributes:
+      label: Samhengi / Task
+      description: Hvaða notendaverkefni (task) og skjár/hluti vefs varst þú að prófa?
+      placeholder: "Dæmi: 'Leita að vöru og setja í körfu' á /search og /product"
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Hvernig á þetta sér stað?
+      description: Skref-fyrir-skref til að endurskapa vandann.
+      placeholder: "1) Opna /search  2) Skrifa '...'  3) ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: observed
+    attributes:
+      label: Raunverð hegðun (observed)
+      description: Hvað gerðist raunverulega?
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Æskileg hegðun (expected)
+      description: Hvað ætti að gerast m.v. heuristics?
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Tillaga að úrbót
+      description: Hvernig væri hægt að laga þetta? (má vera stutt)
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: evidence
+    attributes:
+      label: Sönnunargögn (optional)
+      options:
+        - label: Skjámynd eða skjáupptaka fylgir (draga & sleppa hér að neðan)
