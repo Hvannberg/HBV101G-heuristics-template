@@ -1,5 +1,5 @@
 name: Heuristic Evaluation Issue
-description: Skra usability-vandamal skv. Nielsen heuristics
+description: Skrá usability-vandamal skv. Nielsen heuristics
 title: "[HEURISTIC] Stutt lýsing"
 labels:
   - usability
@@ -9,7 +9,7 @@ body:
   - type: dropdown
     id: heuristic
     attributes:
-      label: Hvaða heuristic a þetta vid?
+      label: Hvaða heuristic á þetta við?
       options:
         - Visibility & Feedback
         - Match to real world
