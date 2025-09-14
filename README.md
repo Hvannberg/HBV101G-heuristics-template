@@ -3,7 +3,6 @@
 Þetta repository er sniðmát fyrir Nielsen heuristics rýni (5–7 einfaldaðir flokkar) sem er framkvæmt í 2 - 3 manna hópum.
 Allt fer fram á GitHub: issues, labels og Project board.
 
-## Skref
 
 ## Skref 1. Stofnið reikning á github.com 
 Stofnið reikning á github.com og setjið upp
