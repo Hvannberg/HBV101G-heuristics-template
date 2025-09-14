@@ -50,7 +50,7 @@ Við notum **Status** reitinn til að tákna heuristics-flokka.
 
 Í Settings á project-inu getið þið líka stillt aðganginn (Manage access) til að leyfa félaga ykkur að hafa aðgang að project-inu 
 
-### Skref 8 - nemendur finna vandamál á vefsíðunni 
+### Skref 8 - Nemendur finna vandamál á valinni vefsíðu
 3. **Hver nemandi** finnur 5–10 vandamál á valinni vefsíðu og **býr til issue** (New issue) með „Heuristic Evaluation Issue“ formi fyrir hvert vandamál.
 4. **Merkið hvert issue** með viðeigandi heuristic (dropdown í forminu) og **alvarleika** (severity).
 5. **Dragið issues á Project board** í dálk fyrir réttan flokk. (sjá næsta skref) 
