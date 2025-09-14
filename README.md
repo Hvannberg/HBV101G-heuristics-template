@@ -1,19 +1,19 @@
-# Heuristics rýni — verkefnasniðmát (HBV101G)
+## A3 Heuristics rýni — verkefnasniðmát (HBV101G)
 
-Þetta repo er sniðmát fyrir Nielsen heuristics rýni (5–7 einfaldaðir flokkar) í 3 manna hópum.
+Þetta repository er sniðmát fyrir Nielsen heuristics rýni (5–7 einfaldaðir flokkar) sem er framkvæmt í 2 - 3 manna hópum.
 Allt fer fram á GitHub: issues, labels og Project board.
 
 ## Skref
 
 ## TASKS.md (hópa- og task-skrá)
 - Fyllið út hópanúmer og nöfn allra í hópnum.
-- Skráið 5–7 tasks sem hægt er að leysa á vefsíðunni og númerið þau.
+- Skráið 5–7 tasks (verkefni) sem hægt er að leysa á vefsíðunni og númerið þau.
 - Í hverju issue, **sláið inn task-númer** í reitnum „Tengt task (# úr TASKS.md)“.
 
 1. **Búið til repo úr sniðmátinu** (`Use this template`).
 2. **Kveikið á labels og Project** (sjá neðar).
-3. **Hver nemandi** finnur 5–10 vandamál á valinni vefsíðu og **býr til issue** með „Heuristic Evaluation Issue“ formi.
-4. **Merkið hvert issue** með viðeigandi heuristic (dropdown í forminu) og severity.
+3. **Hver nemandi** finnur 5–10 vandamál á valinni vefsíðu og **býr til issue** með „Heuristic Evaluation Issue“ formi fyrir hvert vandamál.
+4. **Merkið hvert issue** með viðeigandi heuristic (dropdown í forminu) og alvarleika (severity).
 5. **Dragið issues á Project board** í dálk fyrir réttan flokk. Notið „In Review“ og „Done“ eftir þörfum.
 6. **Hópsamantekt**: Takið stöðutöflu / innsýn (t.d. 3 stærstu vandamál og tillögur).
 
