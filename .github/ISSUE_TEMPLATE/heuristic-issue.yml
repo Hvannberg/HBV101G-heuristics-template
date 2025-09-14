@@ -39,7 +39,7 @@ body:
   - type: input
     id: linked_task
     attributes:
-      label: Tengt task (nr ur TASKS.md)
+      label: Tengt task (nr úr TASKS.md)
       placeholder: "1"
       description: Sláðu inn task-numer sem tengist þessu issue.
     validations:
