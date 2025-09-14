@@ -26,7 +26,7 @@ Stofnið reikning á github.com og setjið upp
 Við ætlum að nota **GitHub Projects (Board view)** til að flokka öll issues eftir Nielsen heuristics.
 1. Farið í repo ykkar → smellið á **Projects** (efst).
 2. Smellið á **New project**.
-3. Veljið *Create from scratch*.
+3. Veljið *Create from scratch* og veljið Board
 4. Gefið verkefninu heiti: **Heuristics Board**.
 
 ### Skref 6 – Stillt layout sem Board
