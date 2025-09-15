@@ -70,7 +70,7 @@ Nú sést á borðinu:
 
 
 ## Skil
--  Gerið kennara (notendanafn hvannberg á github) að collaborator með því að fara í settings 
+-  Gætið þess að repository ykkar sé **public** eða gerið kennara (notendanafn hvannberg á github) að collaborator með því að fara í settings 
 -  Skilið PDF skjali af töflu af project-i og TASKS.md EÐA
 -  Vísið í repo + Project á Gradescope
 
