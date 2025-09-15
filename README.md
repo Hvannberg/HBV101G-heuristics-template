@@ -77,8 +77,7 @@ Nú sést á borðinu:
 
 ### Discussions (valkvætt)
 - Notið **Discussions** flipann fyrir spurningar, umræðu og almennar athugasemdir.
-- Kennari getur sett pinned Discussions fyrir Q&A eða leiðbeiningar.
-- **Issues eru eingöngu fyrir heuristics-vandamál**, en Discussions er frjálsari vettvangur.
+
 
 ---
 
