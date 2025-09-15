@@ -8,7 +8,7 @@ Allt fer fram á GitHub: issues, labels og Project board.
 Stofnið reikning á github.com og setjið upp
 
 ### Skref 2. Búið til eigið repository 
-1. **Búið til repository úr sniðmátinu og gefið því nafn, t.d. Heuristics hópanúmer/nafn ** (`Use this template`).
+1. **Búið til repository úr sniðmátinu og gefið því nafn, t.d. Heuristics hópanúmer/nafn** (`Use this template`).
 2. **Kveikið á labels og Project** (sjá neðar).
 
 
