@@ -37,14 +37,29 @@ Við notum **Status** reitinn til að tákna heuristics-flokka.
 
 1. Smellið á **⋯ View options → Settings** ofarlega til hægri 
 2. Finnið **Status** (vinstra megin) og veljið **Options**.
-3. Breytið options þannig að þau samsvari eftirfarandi heuristics-flokkum:
-   - Visibility & Feedback
-   - Match to real world
-   - User control & error prevention
-   - Consistency & standards
-   - Recognition over recall
-   - Flexibility & efficiency
-   - Aesthetics & minimalism
+3. Breytið Options þannig að þau samsvari eftirfarandi heuristics-flokkum. Þið getið sett nánari lýsingu með því 
+að fara í Edit Details á dálkinn (...)
+
+**H1. Sýnileiki og endurgjöf**  
+   Kerfið á alltaf að láta notanda vita hvað sé að gerast, t.d. með stöðuskjám, skilaboðum eða hljóðum.
+
+**H2. Samræmi við raunveruleikann**  
+   Mál, tákn og framsetning eiga að líkja eftir raunverulegum aðstæðum og hugtökum sem notendur þekkja.
+
+**H3. Notandinn er við stjórn og varnir gegn villum**  
+   Notandinn á að hafa stjórn, geta hætt við eða afturkallað aðgerðir, og kerfið á að fyrirbyggja villur.
+
+**H4. Samræmi og staðlar**
+   Sama aðgerð á að virka eins alls staðar; forðast rugling með mismunandi orð eða tákn.
+
+**H5. Þekkja frekar en muna**  
+   Notandinn á að þurfa að muna sem minnst – upplýsingar og valmöguleikar eiga að vera sýnilegir.
+
+**H6. Sveigjanleiki og skilvirkni**  
+   Kerfið á að henta bæði byrjendum og lengra komnum, t.d. með flýtivísum eða sérsniðnum leiðum.
+
+**H7. Fegurð og einfaldleiki**  
+   Viðmótið á að vera einfalt, skýrt og ekki innihalda óþarfa upplýsingar sem trufla notandann.
 
 > Þið getið fjarlægt upprunalegu stöðurnar eins og *Todo, In progress, Done* og notað bara heuristics-flokkana.
 
