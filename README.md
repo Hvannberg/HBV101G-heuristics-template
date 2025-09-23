@@ -35,7 +35,7 @@ Við ætlum að nota **GitHub Projects (Board view)** til að flokka öll issues
 ### Skref 6. – Búa til dálka fyrir heuristics
 Við notum **Status** reitinn til að tákna heuristics-flokka.
 
-1. Smellið á **⋯ View options → Settings** ofarlega til hægri 
+1. Smellið á **⋯ View more options → Settings** ofarlega til hægri 
 2. Finnið **Status** (vinstra megin) og veljið **Options**.
 3. Breytið Options þannig að þau samsvari eftirfarandi heuristics-flokkum. Þið getið sett nánari lýsingu með því 
 að fara í Edit Details á dálkinn (...)
