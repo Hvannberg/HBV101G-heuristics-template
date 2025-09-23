@@ -9,7 +9,7 @@ Stofnið reikning á github.com og setjið upp
 
 ### Skref 2. Búið til eigið repository 
 1. **Búið til repository úr sniðmátinu og gefið því nafn, t.d. Heuristics hópanúmer/nafn** (`Use this template`).
-2. **Kveikið á labels og Project** (sjá neðar).
+2. **Kveikið á labels (skref 4) og Project (skref 5)** (sjá neðar).
 
 
 ### Skref 3. TASKS.md (hópa- og task-skrá)
