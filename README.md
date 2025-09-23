@@ -22,7 +22,7 @@ Stofnið reikning á github.com og setjið upp
 ### Skref 4. Labels
 - `usability`, `heuristic`, `severity:1` … `severity:5` og einn label fyrir hvern flokk.
 - „Gætið þess að **Workflow permissions séu á Read and write** í **Settings / Actions / General**, annars virkar Sync labels ekki“
-- Veljið Actions og Veldu **“Sync labels”** (vinstra megin) og gerðu svo **Run workflow** til að búa þá til.
+- Veljið Actions (efst) og Veldu **“Sync labels”** (vinstra megin) og gerðu svo **Run workflow** til að búa þá til.
 
 ### Skref 5. – Búa til nýtt Project
 Við ætlum að nota **GitHub Projects (Board view)** til að flokka öll issues eftir Nielsen heuristics.
