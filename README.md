@@ -9,20 +9,20 @@ Stofnið reikning á github.com og setjið upp
 
 ### Skref 2. Búið til eigið repository 
 1. **Búið til repository úr sniðmátinu og gefið því nafn, t.d. Heuristics hópanúmer/nafn** (`Use this template`).
-2. **Kveikið á labels og Project** (sjá neðar).
+2. **Kveikið á labels (skref 4) og Project (skref 5)** (sjá neðar).
 
 
 ### Skref 3. TASKS.md (hópa- og task-skrá)
 - Fyllið út hópanúmer og nöfn allra í hópnum.
 - Skráið 5–7 tasks (verkefni) sem hægt er að leysa á vefsíðunni og númerið þau.
-- Til að vista breytingar gerið Commit changes
+- Til að vista breytingar gerið **Commit changes**
 - Í hverju issue (sjá hér að neðan), **sláið inn task-númer** í reitnum „Tengt task (# úr TASKS.md)“.
   
 
 ### Skref 4. Labels
 - `usability`, `heuristic`, `severity:1` … `severity:5` og einn label fyrir hvern flokk.
-- „Gætið þess að **Workflow permissions séu á Read and write** í **Settings**, annars virkar Sync labels ekki“
-- Veljið Actions og Veldu **“Sync labels”** (vinstra megin) og gerðu svo **Run workflow** til að búa þá til.
+- „Gætið þess að **Workflow permissions séu á Read and write** í **Settings / Actions / General**, munið að vista (save) settings -  annars virkar Sync labels ekki“
+- Veljið Actions (efst) og Veldu **“Sync labels”** (vinstra megin) og gerðu svo **Run workflow** til að búa þá til - athugið getur tekið smá tíma .
 
 ### Skref 5. – Búa til nýtt Project
 Við ætlum að nota **GitHub Projects (Board view)** til að flokka öll issues eftir Nielsen heuristics.
