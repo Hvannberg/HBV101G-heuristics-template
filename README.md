@@ -15,7 +15,7 @@ Stofnið reikning á github.com og setjið upp
 ### Skref 3. TASKS.md (hópa- og task-skrá)
 - Fyllið út hópanúmer og nöfn allra í hópnum.
 - Skráið 5–7 tasks (verkefni) sem hægt er að leysa á vefsíðunni og númerið þau.
-- Til að vista breytingar gerið Commit changes
+- Til að vista breytingar gerið **Commit changes**
 - Í hverju issue (sjá hér að neðan), **sláið inn task-númer** í reitnum „Tengt task (# úr TASKS.md)“.
   
 
