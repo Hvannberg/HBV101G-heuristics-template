@@ -20,7 +20,7 @@ Stofnið reikning á github.com og setjið upp
   
 
 ### Skref 4. Labels
-- `usability`, `heuristic`, `severity:1` … `severity:5` og einn label fyrir hvern flokk.
+- Í þessu skrefi er **forrit (workflow)" keyrt sem býr til gagnlega labels sem eru notuð til að merkja nytsemisvandamál:  `usability`, `heuristic`, `severity:1` … `severity:5` og einn label fyrir hvern heuristics flokk.
 - „Gætið þess að **Workflow permissions séu á Read and write** í **Settings / Actions / General**, munið að vista (save) settings -  annars virkar Sync labels ekki“
 - Veljið Actions (efst) og Veldu **“Sync labels”** (vinstra megin) og gerðu svo **Run workflow** til að búa þá til - athugið getur tekið smá tíma .
 
