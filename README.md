@@ -91,7 +91,8 @@ Nú sést á borðinu:
 
 
 ### Discussions (valkvætt)
-- Notið **Discussions** flipann fyrir spurningar, umræðu og almennar athugasemdir.
+- Notið **Discussions** flipann fyrir spurningar, umræðu og almennar athugasemdir. Til að virkja **Discussions** farið í General / Features / Discussions
+  Farið svo í **New discussions** og veljið tegundir umræðu
 
 
 ---
